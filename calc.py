@@ -3,7 +3,7 @@ from tkinter import *
 def calc():
     try:
         try:
-            a=float(_sta.get())
+            a=float(_sta.get())                                                 # no explanation think urself ¯\_(ツ)_/¯
         except:
             a=_sta.get()
             pass
